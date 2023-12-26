@@ -1,5 +1,5 @@
 FROM python:3.8-slim
-LABEL maintainer="Jagerzhang<im@zhang.ge>"
+LABEL maintainer="hntjb@qq.com"
 LABEL description="Flyer：基于 FastAPI 的 API 开发框架."
 
 WORKDIR /flyer
