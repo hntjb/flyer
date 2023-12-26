@@ -15,7 +15,7 @@ ENV TZ=Asia/Shanghai \
     flyer_base_url=/flyer \
     flyer_version=v1
 
-RUN sed -i 's/deb.debian.org/mirrors.cloud.tencent.com/' /etc/apt/sources.list && \
+RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
     apt-get update && \
     apt-get install make automake gcc g++ python3-dev curl default-libmysqlclient-dev net-tools -y && \
     apt-get clean
